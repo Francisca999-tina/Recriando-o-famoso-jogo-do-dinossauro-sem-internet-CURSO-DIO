@@ -6,7 +6,7 @@ let position = 0;
 function handleKeyUp(event) {
     if (event.keyCode === 32) {
         if (!isJumping) {
-        jump();
+           jump();
         }
     }
 }
